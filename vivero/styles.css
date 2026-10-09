@@ -27,3 +27,105 @@ Pista: si una regla "no hace nada", revisa que la regla de ARRIBA
 cierre su llave } y que cada declaración termine en punto y coma.
 ============================================================
 */
+:root {
+    --verde: #16804A;
+    --verde-oscuro: #06452D;
+    --negro: #171C19;
+    --blanco: #F5F8F3;
+    --gris: #D9DED9;
+    --fuente: Arial, sans-serif;
+}
+
+body {
+font-family: var(--fuente);
+color: var(--negro);
+background-color: var(--verde-oscuro);
+margin: 0;
+}
+
+h1, h2 {
+color: var(--verde-oscuro);
+}
+
+header {
+background-color: var(--negro);
+color: var(--blanco);
+padding: 25px;
+text-align: center;
+}
+
+header h1 {
+color: var(--blanco);
+}
+
+nav a {
+color: var(--blanco);
+}
+
+nav a:hover {
+color: #65D99A;
+}
+
+
+main {
+max-width: 1000px;
+margin: 0 auto;
+padding: 25px;
+}
+
+.estado{
+  color: var(--verde-oscuro);
+}
+section {
+background-color: rgba(192, 251, 66, 0.82);
+margin-bottom: 25px;
+padding: 25px;
+border-radius: 12px;
+}
+
+section img {
+width: 100%;
+max-height: 400px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+#inicio {
+border-left: 5px solid var(--verde);
+}
+
+#plantas {
+border-top: 3px solid var(--verde);
+}
+
+#cuidados {
+border-top: 3px solid var(--verde);
+}
+
+footer {
+background-color: var(--negro);
+color: var(--blanco);
+padding: 25px;
+text-align: center;
+}
+
+footer h2 {
+color: #65D99A;
+}
+
+
+.abierto {
+color: var(--verde-oscuro);
+background-color: #D8F3E2;
+}
+
+.cerrado {
+color: white;
+background-color: #343A36;
+}
+
+.agotado {
+color: #777D78;
+background-color: var(--gris);
+}
+

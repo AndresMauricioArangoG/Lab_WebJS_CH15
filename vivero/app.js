@@ -37,7 +37,7 @@ const plantas = [
 // ============================================================
 
 function estaAbierto(hora) {
-    // Tu código aquí
+    return hora >= HORA_APERTURA && hora < HORA_CIERRE
 }
 
 function formatearPrecio(valor) {
