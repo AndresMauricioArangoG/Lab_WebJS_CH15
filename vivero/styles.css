@@ -1,0 +1,29 @@
+/*
+============================================================
+Ejercicios 04 y 05 · La identidad visual del vivero (CSS)
+============================================================
+Escribe tus estilos DEBAJO de este comentario.
+La paleta es TUYA: elige colores que cuenten la historia de un
+vivero (hojas, tierra, materas...). No copies la de Café Origen.
+
+Ejercicio 04 · Variables y base
+  - En :root, por lo menos 4 variables (--nombre: valor;) con tus
+    colores y fuentes.
+  - Usa esas variables con var(--nombre) en por lo menos 4 declaraciones.
+  - Una regla para body con font-family y color.
+  - Por lo menos una regla para los títulos (h1, h2 o h3).
+
+Ejercicio 05 · Los tres selectores y los estados
+  - Por lo menos una regla con selector de clase (.algo)
+    y una con selector de id (#algo).
+  - Por lo menos una regla con :hover.
+  - Las clases que JavaScript va a poner, cada una con color
+    o background-color:
+      .abierto  → cuando el vivero está abierto
+      .cerrado  → cuando está cerrado
+      .agotado  → una planta sin unidades (por ejemplo, en gris)
+
+Pista: si una regla "no hace nada", revisa que la regla de ARRIBA
+cierre su llave } y que cada declaración termine en punto y coma.
+============================================================
+*/

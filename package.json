@@ -1,0 +1,12 @@
+{
+  "name": "lab-web-ch15",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Taller web calificable · Vivero Guadua · Generation Colombia Cohorte 15",
+  "scripts": {
+    "test": "node scripts/calificar.js"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}

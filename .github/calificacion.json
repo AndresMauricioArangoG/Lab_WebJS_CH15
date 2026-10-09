@@ -1,0 +1,17 @@
+{
+  "curso": "🌿 Vivero Guadua · HTML, CSS y JavaScript",
+  "fechaLimite": "",
+  "patronTest": "^test\\(",
+  "entregables": ["vivero/"],
+  "protegidos": ["tests/", "scripts/", ".github/", "package.json", "package-lock.json"],
+  "ejercicios": [
+    { "id": "01", "titulo": "El esqueleto HTML", "test": "tests/01-esqueleto.test.js" },
+    { "id": "02", "titulo": "Estructura semántica", "test": "tests/02-estructura.test.js" },
+    { "id": "03", "titulo": "Contenido y atributos", "test": "tests/03-contenido.test.js" },
+    { "id": "04", "titulo": "CSS: variables y base", "test": "tests/04-css-base.test.js" },
+    { "id": "05", "titulo": "CSS: selectores", "test": "tests/05-css-selectores.test.js" },
+    { "id": "06", "titulo": "Lógica del negocio", "test": "tests/06-logica.test.js" },
+    { "id": "07", "titulo": "El estado en la página", "test": "tests/07-estado.test.js" },
+    { "id": "08", "titulo": "Catálogo desde los datos", "test": "tests/08-catalogo.test.js" }
+  ]
+}
